@@ -25,8 +25,12 @@ Cada elemento pode ser acessado através de um indice;
 int numeros[5] = {10, 20, 30, 40, 50};
 
 Índice:   0   1   2   3   4
+
+
          +---+---+---+---+---+
+
 numeros: |10 |20 |30 |40 |50 |
+
          +---+---+---+---+---+
 
 Struct:(estrutura) 
