@@ -26,12 +26,8 @@ int numeros[5] = {10, 20, 30, 40, 50};
 
 Índice:   0   1   2   3   4
 
-
-         +---+---+---+---+---+
-
 numeros: |10 |20 |30 |40 |50 |
 
-         +---+---+---+---+---+
 
 Struct:(estrutura) 
 Agrupar variáveis de diferentes tipos sob um mesmo nome.
@@ -62,11 +58,14 @@ for (int i = 0; i < 3; i++) {
 representação vetor 
 
 Pessoa pessoa1:
-+--------------------+------+-------+
+
+
 |       nome         | idade| altura|
-+--------------------+------+-------+
+
+
 | "João"             |  30  |  1.75 |
-+--------------------+------+-------+
+
+
 
 
 Índice:    0                1               2
