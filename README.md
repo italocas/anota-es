@@ -33,5 +33,23 @@ Essa biblioteca é usada para manipulação de tempo, permitindo a obtenção do
 * **#include <stdbool.h>**:
 Esta biblioteca define o tipo bool e os valores true e false, permitindo o uso de valores booleanos em C.
 
--CONTINUAR BASEADO NOS CONTEÚDOS DO CÓDIGO/ ALGORITMO -
+3. Atribuições aritméticas
+* Operadores de atribuição aritmética
+* Incremento de 1 em 1 unidade: **++**
+* Decremento de 1 em 1 unidade: **- -**
+* Incremento genérico: **+=**
+* Decremento genérico: **-=**
+* Atribuição com multiplicação: ***=**
+* Atribuição com divisão: **/=**
+
+4. **Estruturas de controle
+* **if - else**
+```
+if (condicao) {
+    // código a ser executado se a condição for verdadeira
+} else {
+    // código a ser executado se a condição for falsa
+}
+```
+
 
