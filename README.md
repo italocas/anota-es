@@ -1,14 +1,14 @@
 # Depósito para as aulas de lógica de programação
 ##
 → Revisão geral por tópicos
+
  ★ ʟɪɴɢᴜᴀɢᴇᴍ   ᴄ ★
 
 1. Variáveis:
 * Declaração de variáveis: Utilize o tipo de dado seguido pelo nome da variável. Exemplo: int numero;
-* Tipos de dados em C: **int** , **char** , **float**, **double**, entre outros.
 * Atribuição de valor: Atribua um valor a uma variável utilizando o operador de atribuição =. Exemplo: numero = 10;
 * Leitura e impressão de variáveis: 
-Use **%d para int**, **%c para char**, **%f para float**, **%lf para double**, **%s para strings**. 
+**%d para int**, **%c para char**, **%f para float**, **%lf para double**, **%s para strings**. 
 
 2. Instruções de pré-processamento: (bibliotecas)
 
