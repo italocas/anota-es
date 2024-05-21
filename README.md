@@ -1,80 +1,37 @@
-# REVISAO GERAL
+# Depósito para as aulas de lógica de programação
+##
+→ Revisão geral por tópicos
+ ★ ʟɪɴɢᴜᴀɢᴇᴍ   ᴄ ★
 
-array é uma estrutura de dados que aramzena uma coleção de elementos.
-tipos básicos em C:
+1. Variáveis:
+* Declaração de variáveis: Utilize o tipo de dado seguido pelo nome da variável. Exemplo: int numero;
+* Tipos de dados em C: **int** , **char** , **float**, **double**, entre outros.
+* Atribuição de valor: Atribua um valor a uma variável utilizando o operador de atribuição =. Exemplo: numero = 10;
+* Leitura e impressão de variáveis: 
+Use **%d para int**, **%c para char**, **%f para float**, **%lf para double**, **%s para strings**. 
 
-° tipos de dados - Variáveis -
-int - números inteiros sem fração (32bites)
-char - caracteres ou strings (8bites)
-float - números com parte fracionária (32bites)
-double - números com deicimais mais precisos (64bites)
+2. Instruções de pré-processamento: (bibliotecas)
 
-Como um loop funciona:
+* **#include <stdlib.h>**:
+Esta biblioteca fornece funções para alocação de memória dinâmica, conversão de tipos, geração de números aleatórios, entre outras.
 
-for (inicialização; condição; atualização) {
-    // código a ser repetido
-}
-for (inicialização; condição; atualização) {
-    // código a ser repetido
-}
+* **#include <locale.h>**:
+Essa biblioteca é utilizada para configurações de localidade, permitindo a formatação de números, datas e moedas de acordo com as convenções culturais específicas de uma determinada região.
 
-Vetor: 
-É uma coleção de elementos do mesmo tipo, armazenados na memória;
-Cada elemento pode ser acessado através de um indice;
+* **#include <string.h>**:
+Oferece funções para manipulação de strings, como cópia, concatenação, comparação, entre outras.
 
-int numeros[5] = {10, 20, 30, 40, 50};
+* **#include <math.h>**:
+Contém funções matemáticas, como funções trigonométricas, logaritmos, exponenciais, etc.
 
-Índice:   0   1   2   3   4
+* **#include <ctype.h>**:
+Fornece funções para manipulação de caracteres, como conversão entre maiúsculas e minúsculas, testes de caractere, entre outros.
 
-numeros: |10 |20 |30 |40 |50 |
+* **#include <time.h>**:
+Essa biblioteca é usada para manipulação de tempo, permitindo a obtenção do tempo atual, manipulação de estruturas de tempo e conversões entre representações de tempo.
 
+* **#include <stdbool.h>**:
+Esta biblioteca define o tipo bool e os valores true e false, permitindo o uso de valores booleanos em C.
 
-Struct:(estrutura) 
-Agrupar variáveis de diferentes tipos sob um mesmo nome.
-Um conjunto condiz a uma única entidade.
-
-typedef struct {
-    char nome[50];
-    int idade;
-    float altura;
-} Pessoa;
-
-criar um vetor com variável dessa estrutura:
-int main() {
-    Pessoa pessoas[3] = {
-        {"João", 30, 1.75},
-        {"Maria", 25, 1.65},
-        {"José", 28, 1.80}
-
-gero um loop para printar cada dado de cada pessoa
-
-for (int i = 0; i < 3; i++) {
-    printf("Pessoa %d:\n", i + 1);
-    printf("Nome: %s\n", pessoas[i].nome);
-    printf("Idade: %d\n", pessoas[i].idade);
-    printf("Altura: %.2f\n\n", pessoas[i].altura);
-}
-
-representação vetor 
-
-Pessoa pessoa1:
-
-
-|       nome         | idade| altura|
-
-
-| "João"             |  30  |  1.75 |
-
-
-
-
-Índice:    0                1               2
-
-         | Pessoa         | Pessoa         | Pessoa         |
-
-pessoas: | nome: "João"   | nome: "Maria"  | nome: "José"   |
-         | idade: 30      | idade: 25      | idade: 28      |
-         | altura: 1.75   | altura: 1.65   | altura: 1.80   |
-
-
+-CONTINUAR BASEADO NOS CONTEÚDOS DO CÓDIGO/ ALGORITMO -
 
