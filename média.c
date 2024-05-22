@@ -3,7 +3,7 @@
 int main(void){
 
 float n1 , n2, media;
-
+//média é 7
     printf("Insira a primeira nota do aluno:\n");
         scanf( "%f" , &n1);
     printf("Insira a segunda nota do aluno:\n");
