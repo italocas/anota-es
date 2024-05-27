@@ -15,7 +15,7 @@
 **%s para strings**, Array de caracteres
 >sizeof(nome da variável) para número de bites
 
-* **constante**  ```#define```, mantém um valor fixo
+* **constante**  ```#define```, mantém um valor fixo seja ele um número ou um "TEXTO"
 2. Instruções de pré-processamento: **(bibliotecas)**
 
 * **#include <stdlib.h>**:
