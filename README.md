@@ -14,6 +14,8 @@
 **%lf para double**, número decimal, max 15 digitos
 **%s para strings**, Array de caracteres
 >sizeof(nome da variável) para número de bites
+
+* **constante**  ```#define```, mantém um valor fixo
 2. Instruções de pré-processamento: **(bibliotecas)**
 
 * **#include <stdlib.h>**:
